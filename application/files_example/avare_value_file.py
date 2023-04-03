@@ -1,6 +1,6 @@
 import csv
 
-from homework__Chaika_Sergii__hw6__flask.application.config.path import FILES_OUTPUT_PATH
+from application.config.path import FILES_OUTPUT_PATH
 
 
 def average_value_from_csv(name_file: str = "output") -> str:

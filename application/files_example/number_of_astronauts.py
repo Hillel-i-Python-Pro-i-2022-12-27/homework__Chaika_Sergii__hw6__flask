@@ -1,6 +1,6 @@
 import json
 
-from homework__Chaika_Sergii__hw6__flask.application.config.path import FILES_OUTPUT_PATH
+from application.config.path import FILES_OUTPUT_PATH
 
 
 def number_of_astronaut(name_file: str = "output") -> None:

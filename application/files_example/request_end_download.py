@@ -2,8 +2,8 @@ import json
 import urllib.request
 import requests
 
-from homework__Chaika_Sergii__hw6__flask.application.config.path import FILES_OUTPUT_PATH
-from homework__Chaika_Sergii__hw6__flask.application.logging.loggers import get_core_logger
+from application.config.path import FILES_OUTPUT_PATH
+from application.logging.loggers import get_core_logger
 
 
 def get_requests_data(url: str = None) -> None:

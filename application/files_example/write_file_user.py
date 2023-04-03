@@ -1,6 +1,6 @@
-from homework__Chaika_Sergii__hw6__flask.application.config.path import FILES_OUTPUT_PATH
-from homework__Chaika_Sergii__hw6__flask.application.files_example.generators import generate_users
-from homework__Chaika_Sergii__hw6__flask.application.logging.loggers import get_core_logger
+from application.config.path import FILES_OUTPUT_PATH
+from application.files_example.generators import generate_users
+from application.logging.loggers import get_core_logger
 
 
 def to_write_file_user(name_file: str = None, amount_users: int = 100) -> None:
