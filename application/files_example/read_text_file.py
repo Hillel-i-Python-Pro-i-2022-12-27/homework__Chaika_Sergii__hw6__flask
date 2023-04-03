@@ -7,7 +7,7 @@ def read_text_file(name_file: str = None) -> None:
     path_to_file = FILES_INPUT_PATH.joinpath(f"{name_file}.txt")
     logger.info(f"Path to file: file://{path_to_file}")
     file_text = path_to_file.read_text()
-    print(file_text)
+    return f"{file_text}"
 
 
 if __name__ == "__main__":

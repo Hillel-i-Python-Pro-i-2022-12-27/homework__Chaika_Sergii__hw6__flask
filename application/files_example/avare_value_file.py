@@ -14,7 +14,7 @@ def average_value_from_csv(name_file: str = "output") -> str:
             sum_average_weight += float(row[' "Weight(Pounds)"'].strip())
         average_height_cm = round((sum_average_height / int(row["Index"])) * 2.54, 1)
         average_weight_kg = round((sum_average_weight / int(row["Index"])) * 0.45, 1)
-        print(f"average height in cm {average_height_cm} , average weight in kg {average_weight_kg}")
+        return f"Average height in cm {average_height_cm} , average weight in kg {average_weight_kg}"
 
 if __name__ == "__main__":
     average_value_from_csv()
